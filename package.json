@@ -1,0 +1,32 @@
+{
+  "name": "machinepack-cft",
+  "version": "0.1.0",
+  "description": "Work with cft.",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "keywords": [
+    "cft",
+    "machines",
+    "machinepack"
+  ],
+  "author": "Charles Perraut",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^12.2.5"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^2.1.5"
+  },
+  "machinepack": {
+    "friendlyName": "cft",
+    "machineDir": "machines/",
+    "machines": [
+      "get-surveys-sent"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/perrautc/machinepack-cft.git"
+  }
+}
